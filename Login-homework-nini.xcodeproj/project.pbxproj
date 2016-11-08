@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B96422871DD179BB00258730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96422861DD179BB00258730 /* AppDelegate.swift */; };
+		B96422891DD179BB00258730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96422881DD179BB00258730 /* ViewController.swift */; };
+		B964228C1DD179BB00258730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B964228A1DD179BB00258730 /* Main.storyboard */; };
+		B964228E1DD179BB00258730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B964228D1DD179BB00258730 /* Assets.xcassets */; };
+		B96422911DD179BB00258730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B964228F1DD179BB00258730 /* LaunchScreen.storyboard */; };
+		B964229C1DD179BB00258730 /* Login_homework_niniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B964229B1DD179BB00258730 /* Login_homework_niniTests.swift */; };
+		B96422A71DD179BB00258730 /* Login_homework_niniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96422A61DD179BB00258730 /* Login_homework_niniUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B96422981DD179BB00258730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B964227B1DD179BB00258730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96422821DD179BB00258730;
+			remoteInfo = "Login-homework-nini";
+		};
+		B96422A31DD179BB00258730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B964227B1DD179BB00258730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96422821DD179BB00258730;
+			remoteInfo = "Login-homework-nini";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B96422831DD179BB00258730 /* Login-homework-nini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login-homework-nini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96422861DD179BB00258730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B96422881DD179BB00258730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B964228B1DD179BB00258730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B964228D1DD179BB00258730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B96422901DD179BB00258730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B96422921DD179BB00258730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96422971DD179BB00258730 /* Login-homework-niniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login-homework-niniTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B964229B1DD179BB00258730 /* Login_homework_niniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_homework_niniTests.swift; sourceTree = "<group>"; };
+		B964229D1DD179BB00258730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96422A21DD179BB00258730 /* Login-homework-niniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login-homework-niniUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96422A61DD179BB00258730 /* Login_homework_niniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_homework_niniUITests.swift; sourceTree = "<group>"; };
+		B96422A81DD179BB00258730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B96422801DD179BB00258730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96422941DD179BB00258730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B964229F1DD179BB00258730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B964227A1DD179BB00258730 = {
+			isa = PBXGroup;
+			children = (
+				B96422851DD179BB00258730 /* Login-homework-nini */,
+				B964229A1DD179BB00258730 /* Login-homework-niniTests */,
+				B96422A51DD179BB00258730 /* Login-homework-niniUITests */,
+				B96422841DD179BB00258730 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B96422841DD179BB00258730 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B96422831DD179BB00258730 /* Login-homework-nini.app */,
+				B96422971DD179BB00258730 /* Login-homework-niniTests.xctest */,
+				B96422A21DD179BB00258730 /* Login-homework-niniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B96422851DD179BB00258730 /* Login-homework-nini */ = {
+			isa = PBXGroup;
+			children = (
+				B96422861DD179BB00258730 /* AppDelegate.swift */,
+				B96422881DD179BB00258730 /* ViewController.swift */,
+				B964228A1DD179BB00258730 /* Main.storyboard */,
+				B964228D1DD179BB00258730 /* Assets.xcassets */,
+				B964228F1DD179BB00258730 /* LaunchScreen.storyboard */,
+				B96422921DD179BB00258730 /* Info.plist */,
+			);
+			path = "Login-homework-nini";
+			sourceTree = "<group>";
+		};
+		B964229A1DD179BB00258730 /* Login-homework-niniTests */ = {
+			isa = PBXGroup;
+			children = (
+				B964229B1DD179BB00258730 /* Login_homework_niniTests.swift */,
+				B964229D1DD179BB00258730 /* Info.plist */,
+			);
+			path = "Login-homework-niniTests";
+			sourceTree = "<group>";
+		};
+		B96422A51DD179BB00258730 /* Login-homework-niniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B96422A61DD179BB00258730 /* Login_homework_niniUITests.swift */,
+				B96422A81DD179BB00258730 /* Info.plist */,
+			);
+			path = "Login-homework-niniUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B96422821DD179BB00258730 /* Login-homework-nini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96422AB1DD179BB00258730 /* Build configuration list for PBXNativeTarget "Login-homework-nini" */;
+			buildPhases = (
+				B964227F1DD179BB00258730 /* Sources */,
+				B96422801DD179BB00258730 /* Frameworks */,
+				B96422811DD179BB00258730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Login-homework-nini";
+			productName = "Login-homework-nini";
+			productReference = B96422831DD179BB00258730 /* Login-homework-nini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B96422961DD179BB00258730 /* Login-homework-niniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96422AE1DD179BB00258730 /* Build configuration list for PBXNativeTarget "Login-homework-niniTests" */;
+			buildPhases = (
+				B96422931DD179BB00258730 /* Sources */,
+				B96422941DD179BB00258730 /* Frameworks */,
+				B96422951DD179BB00258730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96422991DD179BB00258730 /* PBXTargetDependency */,
+			);
+			name = "Login-homework-niniTests";
+			productName = "Login-homework-niniTests";
+			productReference = B96422971DD179BB00258730 /* Login-homework-niniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B96422A11DD179BB00258730 /* Login-homework-niniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96422B11DD179BB00258730 /* Build configuration list for PBXNativeTarget "Login-homework-niniUITests" */;
+			buildPhases = (
+				B964229E1DD179BB00258730 /* Sources */,
+				B964229F1DD179BB00258730 /* Frameworks */,
+				B96422A01DD179BB00258730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96422A41DD179BB00258730 /* PBXTargetDependency */,
+			);
+			name = "Login-homework-niniUITests";
+			productName = "Login-homework-niniUITests";
+			productReference = B96422A21DD179BB00258730 /* Login-homework-niniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B964227B1DD179BB00258730 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "pha vansa";
+				TargetAttributes = {
+					B96422821DD179BB00258730 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					B96422961DD179BB00258730 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B96422821DD179BB00258730;
+					};
+					B96422A11DD179BB00258730 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B96422821DD179BB00258730;
+					};
+				};
+			};
+			buildConfigurationList = B964227E1DD179BB00258730 /* Build configuration list for PBXProject "Login-homework-nini" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B964227A1DD179BB00258730;
+			productRefGroup = B96422841DD179BB00258730 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B96422821DD179BB00258730 /* Login-homework-nini */,
+				B96422961DD179BB00258730 /* Login-homework-niniTests */,
+				B96422A11DD179BB00258730 /* Login-homework-niniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B96422811DD179BB00258730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96422911DD179BB00258730 /* LaunchScreen.storyboard in Resources */,
+				B964228E1DD179BB00258730 /* Assets.xcassets in Resources */,
+				B964228C1DD179BB00258730 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96422951DD179BB00258730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96422A01DD179BB00258730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B964227F1DD179BB00258730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96422891DD179BB00258730 /* ViewController.swift in Sources */,
+				B96422871DD179BB00258730 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96422931DD179BB00258730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B964229C1DD179BB00258730 /* Login_homework_niniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B964229E1DD179BB00258730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96422A71DD179BB00258730 /* Login_homework_niniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B96422991DD179BB00258730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96422821DD179BB00258730 /* Login-homework-nini */;
+			targetProxy = B96422981DD179BB00258730 /* PBXContainerItemProxy */;
+		};
+		B96422A41DD179BB00258730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96422821DD179BB00258730 /* Login-homework-nini */;
+			targetProxy = B96422A31DD179BB00258730 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B964228A1DD179BB00258730 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B964228B1DD179BB00258730 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B964228F1DD179BB00258730 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B96422901DD179BB00258730 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B96422A91DD179BB00258730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B96422AA1DD179BB00258730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B96422AC1DD179BB00258730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Login-homework-nini/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amretvansa.Login-homework-nini";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B96422AD1DD179BB00258730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Login-homework-nini/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amretvansa.Login-homework-nini";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B96422AF1DD179BB00258730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Login-homework-niniTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amretvansa.Login-homework-niniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login-homework-nini.app/Login-homework-nini";
+			};
+			name = Debug;
+		};
+		B96422B01DD179BB00258730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Login-homework-niniTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amretvansa.Login-homework-niniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login-homework-nini.app/Login-homework-nini";
+			};
+			name = Release;
+		};
+		B96422B21DD179BB00258730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Login-homework-niniUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amretvansa.Login-homework-niniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Login-homework-nini";
+			};
+			name = Debug;
+		};
+		B96422B31DD179BB00258730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Login-homework-niniUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amretvansa.Login-homework-niniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Login-homework-nini";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B964227E1DD179BB00258730 /* Build configuration list for PBXProject "Login-homework-nini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96422A91DD179BB00258730 /* Debug */,
+				B96422AA1DD179BB00258730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96422AB1DD179BB00258730 /* Build configuration list for PBXNativeTarget "Login-homework-nini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96422AC1DD179BB00258730 /* Debug */,
+				B96422AD1DD179BB00258730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B96422AE1DD179BB00258730 /* Build configuration list for PBXNativeTarget "Login-homework-niniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96422AF1DD179BB00258730 /* Debug */,
+				B96422B01DD179BB00258730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B96422B11DD179BB00258730 /* Build configuration list for PBXNativeTarget "Login-homework-niniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96422B21DD179BB00258730 /* Debug */,
+				B96422B31DD179BB00258730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B964227B1DD179BB00258730 /* Project object */;
+}
