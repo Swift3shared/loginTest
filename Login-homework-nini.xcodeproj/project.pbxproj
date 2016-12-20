@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90726A91DD37AF500EE9339 /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90726A81DD37AF500EE9339 /* PersonList.swift */; };
+		B93BF0EC1DD1F430007B6CB8 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93BF0EB1DD1F430007B6CB8 /* RoundedTextField.swift */; };
+		B93BF0EE1DD1FDBC007B6CB8 /* RoundedButton .swift in Sources */ = {isa = PBXBuildFile; fileRef = B93BF0ED1DD1FDBC007B6CB8 /* RoundedButton .swift */; };
+		B952ABB11DD233A8002921E0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B952ABB01DD233A8002921E0 /* DetailViewController.swift */; };
+		B952ABB41DD233E4002921E0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B952ABB31DD233E4002921E0 /* Person.swift */; };
+		B952ABB61DD235D8002921E0 /* UserList .swift in Sources */ = {isa = PBXBuildFile; fileRef = B952ABB51DD235D8002921E0 /* UserList .swift */; };
 		B96422871DD179BB00258730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96422861DD179BB00258730 /* AppDelegate.swift */; };
-		B96422891DD179BB00258730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96422881DD179BB00258730 /* ViewController.swift */; };
 		B964228C1DD179BB00258730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B964228A1DD179BB00258730 /* Main.storyboard */; };
 		B964228E1DD179BB00258730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B964228D1DD179BB00258730 /* Assets.xcassets */; };
 		B96422911DD179BB00258730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B964228F1DD179BB00258730 /* LaunchScreen.storyboard */; };
 		B964229C1DD179BB00258730 /* Login_homework_niniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B964229B1DD179BB00258730 /* Login_homework_niniTests.swift */; };
 		B96422A71DD179BB00258730 /* Login_homework_niniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96422A61DD179BB00258730 /* Login_homework_niniUITests.swift */; };
+		B96422BD1DD183C500258730 /* ALEAWB__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B96422BB1DD183C500258730 /* ALEAWB__.TTF */; };
+		B96422BE1DD183C500258730 /* ALEAWBB_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B96422BC1DD183C500258730 /* ALEAWBB_.TTF */; };
+		B98921E01DD2226B0052A5E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98921DF1DD2226B0052A5E5 /* LoginViewController.swift */; };
+		B9C0512F1DD46713008D125F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C0512E1DD46713008D125F /* CustomView.swift */; };
+		B9C051311DD4673A008D125F /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C051301DD4673A008D125F /* PopupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B90726A81DD37AF500EE9339 /* PersonList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonList.swift; sourceTree = "<group>"; };
+		B93BF0EB1DD1F430007B6CB8 /* RoundedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		B93BF0ED1DD1FDBC007B6CB8 /* RoundedButton .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RoundedButton .swift"; sourceTree = "<group>"; };
+		B952ABB01DD233A8002921E0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B952ABB31DD233E4002921E0 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B952ABB51DD235D8002921E0 /* UserList .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserList .swift"; sourceTree = "<group>"; };
 		B96422831DD179BB00258730 /* Login-homework-nini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login-homework-nini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96422861DD179BB00258730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B96422881DD179BB00258730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B964228B1DD179BB00258730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B964228D1DD179BB00258730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B964228D1DD179BB00258730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Login-homework-nini/Assets.xcassets"; sourceTree = "<group>"; };
 		B96422901DD179BB00258730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B96422921DD179BB00258730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B96422971DD179BB00258730 /* Login-homework-niniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login-homework-niniTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +62,11 @@
 		B96422A21DD179BB00258730 /* Login-homework-niniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login-homework-niniUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96422A61DD179BB00258730 /* Login_homework_niniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_homework_niniUITests.swift; sourceTree = "<group>"; };
 		B96422A81DD179BB00258730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96422BB1DD183C500258730 /* ALEAWB__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = ALEAWB__.TTF; path = ../../../../../Downloads/anglicantext/ALEAWB__.TTF; sourceTree = "<group>"; };
+		B96422BC1DD183C500258730 /* ALEAWBB_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = ALEAWBB_.TTF; path = ../../../../../Downloads/anglicantext/ALEAWBB_.TTF; sourceTree = "<group>"; };
+		B98921DF1DD2226B0052A5E5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B9C0512E1DD46713008D125F /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		B9C051301DD4673A008D125F /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B93BF0EA1DD1F413007B6CB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B93BF0EB1DD1F430007B6CB8 /* RoundedTextField.swift */,
+				B93BF0ED1DD1FDBC007B6CB8 /* RoundedButton .swift */,
+				B964228A1DD179BB00258730 /* Main.storyboard */,
+				B964228F1DD179BB00258730 /* LaunchScreen.storyboard */,
+				B9C0512E1DD46713008D125F /* CustomView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B952ABB21DD233AF002921E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B952ABB31DD233E4002921E0 /* Person.swift */,
+				B952ABB51DD235D8002921E0 /* UserList .swift */,
+				B90726A81DD37AF500EE9339 /* PersonList.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		B964227A1DD179BB00258730 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +139,11 @@
 		B96422851DD179BB00258730 /* Login-homework-nini */ = {
 			isa = PBXGroup;
 			children = (
-				B96422861DD179BB00258730 /* AppDelegate.swift */,
-				B96422881DD179BB00258730 /* ViewController.swift */,
-				B964228A1DD179BB00258730 /* Main.storyboard */,
-				B964228D1DD179BB00258730 /* Assets.xcassets */,
-				B964228F1DD179BB00258730 /* LaunchScreen.storyboard */,
-				B96422921DD179BB00258730 /* Info.plist */,
+				B9C051321DD46BDC008D125F /* Core */,
+				B952ABB21DD233AF002921E0 /* Model */,
+				B98921DE1DD2216B0052A5E5 /* Controller */,
+				B93BF0EA1DD1F413007B6CB8 /* View */,
+				B96422B41DD1800D00258730 /* Resources */,
 			);
 			path = "Login-homework-nini";
 			sourceTree = "<group>";
@@ -123,6 +164,36 @@
 				B96422A81DD179BB00258730 /* Info.plist */,
 			);
 			path = "Login-homework-niniUITests";
+			sourceTree = "<group>";
+		};
+		B96422B41DD1800D00258730 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B964228D1DD179BB00258730 /* Assets.xcassets */,
+				B96422BB1DD183C500258730 /* ALEAWB__.TTF */,
+				B96422BC1DD183C500258730 /* ALEAWBB_.TTF */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B98921DE1DD2216B0052A5E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B98921DF1DD2226B0052A5E5 /* LoginViewController.swift */,
+				B952ABB01DD233A8002921E0 /* DetailViewController.swift */,
+				B9C051301DD4673A008D125F /* PopupViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B9C051321DD46BDC008D125F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B96422861DD179BB00258730 /* AppDelegate.swift */,
+				B96422921DD179BB00258730 /* Info.plist */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +305,8 @@
 			files = (
 				B96422911DD179BB00258730 /* LaunchScreen.storyboard in Resources */,
 				B964228E1DD179BB00258730 /* Assets.xcassets in Resources */,
+				B96422BE1DD183C500258730 /* ALEAWBB_.TTF in Resources */,
+				B96422BD1DD183C500258730 /* ALEAWB__.TTF in Resources */,
 				B964228C1DD179BB00258730 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +332,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96422891DD179BB00258730 /* ViewController.swift in Sources */,
+				B952ABB41DD233E4002921E0 /* Person.swift in Sources */,
+				B98921E01DD2226B0052A5E5 /* LoginViewController.swift in Sources */,
+				B93BF0EE1DD1FDBC007B6CB8 /* RoundedButton .swift in Sources */,
+				B9C0512F1DD46713008D125F /* CustomView.swift in Sources */,
+				B952ABB11DD233A8002921E0 /* DetailViewController.swift in Sources */,
+				B9C051311DD4673A008D125F /* PopupViewController.swift in Sources */,
+				B952ABB61DD235D8002921E0 /* UserList .swift in Sources */,
+				B93BF0EC1DD1F430007B6CB8 /* RoundedTextField.swift in Sources */,
+				B90726A91DD37AF500EE9339 /* PersonList.swift in Sources */,
 				B96422871DD179BB00258730 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +586,7 @@
 				B96422AD1DD179BB00258730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B96422AE1DD179BB00258730 /* Build configuration list for PBXNativeTarget "Login-homework-niniTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +595,7 @@
 				B96422B01DD179BB00258730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B96422B11DD179BB00258730 /* Build configuration list for PBXNativeTarget "Login-homework-niniUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +604,7 @@
 				B96422B31DD179BB00258730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

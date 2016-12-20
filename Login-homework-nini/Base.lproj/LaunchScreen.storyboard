@@ -1,27 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AdX-2Q-iMF">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="j0k-ld-uyj">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController id="AdX-2Q-iMF" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
-                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                        <viewControllerLayoutGuide type="top" id="BNt-BM-gI7"/>
+                        <viewControllerLayoutGuide type="bottom" id="2dR-oo-0NZ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="Izm-4c-PHl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-11-08 at 7.22.18 PM" translatesAutoresizingMaskIntoConstraints="NO" id="SyF-ep-U87">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZIo-de-s6b">
+                                <rect key="frame" x="0.0" y="-2" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.069850324950000001" green="0.53842362210000005" blue="0.72336632010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SyF-ep-U87" firstAttribute="top" secondItem="Izm-4c-PHl" secondAttribute="top" id="ASz-FP-bQ2"/>
+                            <constraint firstItem="2dR-oo-0NZ" firstAttribute="top" secondItem="SyF-ep-U87" secondAttribute="bottom" id="WDW-uc-N18"/>
+                            <constraint firstItem="SyF-ep-U87" firstAttribute="leading" secondItem="Izm-4c-PHl" secondAttribute="leading" id="Xuy-WP-yKS"/>
+                            <constraint firstItem="2dR-oo-0NZ" firstAttribute="top" secondItem="ZIo-de-s6b" secondAttribute="bottom" constant="2" id="Zke-ca-XQs"/>
+                            <constraint firstItem="ZIo-de-s6b" firstAttribute="leading" secondItem="Izm-4c-PHl" secondAttribute="leading" id="din-Zm-X94"/>
+                            <constraint firstAttribute="trailing" secondItem="ZIo-de-s6b" secondAttribute="trailing" id="eV7-m4-3S2"/>
+                            <constraint firstItem="ZIo-de-s6b" firstAttribute="top" secondItem="Izm-4c-PHl" secondAttribute="top" constant="-2" id="jDV-dN-NvS"/>
+                            <constraint firstAttribute="trailing" secondItem="SyF-ep-U87" secondAttribute="trailing" id="kWt-ZG-v83"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y7r-wa-MvF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="411" y="9"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Screen Shot 2016-11-08 at 7.22.18 PM" width="570" height="1030"/>
+    </resources>
 </document>
